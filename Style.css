@@ -1,0 +1,43 @@
+.main-container {
+    width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 5px solid white;
+}
+
+.main-container h2 {
+    margin-top: 5px;
+    color: gray;
+    font-size: 14px;
+}
+
+div h3:first-of-type {
+    text-align: left;
+}
+h5 {
+    color: gray;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+input {
+    width: 790px;
+}
+h4 {
+    display: inline;
+}
+h1 {
+    margin-top: 0px;
+}
+button {
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 155px;
+    height: 25px;
+}
