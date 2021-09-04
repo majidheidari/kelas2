@@ -6,9 +6,10 @@
 
 #avatar {
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    border: 5px solid white;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 20px
 }
 
 .main-container h2 {
@@ -40,4 +41,53 @@ button {
     align-items: center;
     width: 155px;
     height: 25px;
+}
+img {
+    width: 800px;
+    height:300px
+}
+#divb {
+    display: flex;
+    align-items: center
+}
+#divavatar {
+    background-color: gainsboro;
+}
+
+@media screen and (max-width: 800px) {
+    p {
+        font-size: 1rem;
+    }
+    .main-container {
+        width: 400px;
+        margin: auto;
+        text-align: left;
+    }
+    img {
+        width: 400px;
+        height:150px
+    }
+    button {
+        border: none;
+        display: flex;
+        align-items: center;
+        width: 77px;
+        height: 25px;
+    }
+    #divb {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #avatar {
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin: 20px;
+        float: none;
+    }
+    #divavatar {
+        background-color: gainsboro;
+        text-align: center;
+    }
 }
